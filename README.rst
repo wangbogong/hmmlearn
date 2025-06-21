@@ -1,5 +1,8 @@
-hmmlearn |travis| |appveyor|
-========
+#########
+hmmlearn
+#########
+
+|travis| |appveyor|
 
 .. |travis| image:: https://api.travis-ci.org/hmmlearn/hmmlearn.svg?branch=master
    :target: https://travis-ci.org/hmmlearn/hmmlearn
@@ -8,15 +11,15 @@ hmmlearn |travis| |appveyor|
    :target: https://ci.appveyor.com/project/superbobry/hmmlearn/branch/master
 
 hmmlearn is a set of algorithms for **unsupervised** learning and inference of
-Hidden Markov Models. For supervised learning learning of HMMs and similar models
+Hidden Markov Models. For supervised learning of HMMs and similar models
 see `seqlearn <https://github.com/larsmans/seqlearn>`_.
 
 Important links
 ===============
 
-* Official source code repo: https://github.com/hmmlearn/hmmlearn
-* HTML documentation (stable release): https://hmmlearn.readthedocs.org/en/stable
-* HTML documentation (development version): https://hmmlearn.readthedocs.org/en/latest
+* Official source code repo: `GitHub Repository <https://github.com/hmmlearn/hmmlearn>`_
+* HTML documentation (stable release): `Stable Documentation <https://hmmlearn.readthedocs.org/en/stable>`_
+* HTML documentation (development version): `Development Documentation <https://hmmlearn.readthedocs.org/en/latest>`_
 
 Dependencies
 ============
@@ -35,13 +38,13 @@ Installation
 ============
 
 First make sure you have installed all the dependencies listed above. Then run
-the following command::
+the following command:
+
+.. code-block:: bash
 
     pip install -U --user hmmlearn
 
-..
-   Development
-   ===========
+Development
+===========
 
-   Detailed instructions on how to contribute are available in
-   ``CONTRIBUTING.rst``.
+Detailed instructions on how to contribute are available in the repository.
